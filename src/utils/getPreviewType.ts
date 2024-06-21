@@ -43,7 +43,7 @@ export const extensions = {
   css: preview.code,
   html: preview.code,
   // typescript or video file, determined below
-  ts: preview.code,
+  ts: preview.video,
   tsx: preview.code,
   rs: preview.code,
   vue: preview.code,

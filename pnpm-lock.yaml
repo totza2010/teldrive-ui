@@ -45,6 +45,9 @@ importers:
       artplayer:
         specifier: ^5.1.5
         version: 5.1.5
+      artplayer-plugin-chromecast:
+        specifier: ^1.0.0
+        version: 1.0.0
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -1718,6 +1721,9 @@ packages:
   arraybuffer.prototype.slice@1.0.3:
     resolution: {integrity: sha512-bMxMKAjg13EBSVscxTaYA4mRc5t1UAXa2kXiGTNfZ079HIWXEkKmkgFrh/nJqamaLSrXO5H4WFFkPEaLJWbs3A==}
     engines: {node: '>= 0.4'}
+
+  artplayer-plugin-chromecast@1.0.0:
+    resolution: {integrity: sha512-liF1ku8OYJqycgU/9HcAJsmv3amxp9/LG2Ce/RqVcQu+gTw8MoLELRfxeMolBK159s2sesmYp4N1043pDAtkAg==}
 
   artplayer@5.1.5:
     resolution: {integrity: sha512-hqTVqKpVlrY0+WYM2mB6uYt6zuUKL2U9K2Yoe55m9d01dHA8Byw1qZsFsTIu1eCJTh8QL7v5ThWqNucyKULbAg==}
@@ -5825,6 +5831,8 @@ snapshots:
       get-intrinsic: 1.2.4
       is-array-buffer: 3.0.4
       is-shared-array-buffer: 1.0.3
+
+  artplayer-plugin-chromecast@1.0.0: {}
 
   artplayer@5.1.5:
     dependencies:

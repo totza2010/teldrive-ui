@@ -2,6 +2,7 @@ import { memo, useEffect, useRef } from "react"
 import type Artplayer from "artplayer"
 import type ArtOption from "artplayer/types/option"
 import { AspectRatio } from "artplayer/types/player"
+import Chromecast from 'artplayer-plugin-chromecast'
 
 import Player from "./ArtPlayer"
 
@@ -46,6 +47,9 @@ const VideoPlayer = ({ name, assetUrl }: VideoPlayerProps) => {
       crossOrigin: "anonymous",
       playsInline: true,
     },
+    plugins: [
+      Chromecast({})
+    ]
   }
 
   useEffect(() => {

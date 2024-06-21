@@ -29,6 +29,7 @@ const CustomActions = {
     button: {
       name: "VLC",
       toolbar: true,
+      contextMenu: true,
       group: "OpenOptions",
       icon: IconFlatColorIconsVlc,
     },

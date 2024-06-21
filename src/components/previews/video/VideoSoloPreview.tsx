@@ -7,6 +7,7 @@ import SolarPlayCircleBold from "~icons/solar/play-circle-bold"
 import type Artplayer from "artplayer"
 import type ArtOption from "artplayer/types/option"
 import { AspectRatio } from "artplayer/types/player"
+import Chromecast from 'artplayer-plugin-chromecast'
 
 import { mediaUrl } from "@/utils/common"
 import { sessionQueryOptions } from "@/utils/queryOptions"
@@ -51,6 +52,9 @@ const VideoPlayer = forwardRef<HTMLVideoElement, VideoPlayerProps>(
       moreVideoAttr: {
         playsInline: true,
       },
+      plugins: [
+        Chromecast({})
+      ]
     }
 
     useEffect(() => {
